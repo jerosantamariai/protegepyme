@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import injectContext from './store/appContext';
 import Home from './views/home';
 import NotFound from './views/notfound';
 
@@ -16,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default injectContext(App);
