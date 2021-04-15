@@ -36,6 +36,11 @@ nav {
   width: 100vw;
 }
 
+nav .navbar-collapse {
+  width: 100vw;
+  background-color: rgb(45, 51, 77);
+}
+
 nav .navbar-brand {
   width: 15vw;
 }
@@ -58,6 +63,46 @@ nav .nav-link:hover {
 
 .initainer {
   background-color: white;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* QUIENES SOMOS */
+
+.qstainer {
+  background-color: teal;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* COMO TRABAJAMOS */
+
+.comostainer {
+  background-color: blueviolet;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* POR QUE NOSOTROS */
+
+.xqtainer {
+  background-color: coral;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* PRECIOS */
+
+.preciostainer {
+  background-color: royalblue;
+  width: 100vw;
+  height: 80vh;
+}
+
+/* CONTACTO */
+
+.contactainer {
+  background-color: plum;
   width: 100vw;
   height: 80vh;
 }
