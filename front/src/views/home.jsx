@@ -1,9 +1,10 @@
 import React from 'react';
+import Inicio from './landing/inicio';
 
 const Home = props => {
     return(
         <div className="hometainer">
-            <h1>Home</h1>
+            <Inicio />
         </div>
     )
 };
