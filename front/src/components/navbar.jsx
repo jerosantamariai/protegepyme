@@ -12,21 +12,21 @@ const Navbar = props => {
                         </span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mb-2 mb-lg-0 mx-auto">
+                    <ul className="navbar-nav mb-2 mb-lg-0 mx-auto text-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="/#link1">LINK1</a>
+                            <a className="nav-link" href="/#quienessomos">QUIENES SOMOS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#link2">LINK2</a>
+                            <a className="nav-link" href="/#comotrabajamos">COMO TRABAJAMOS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#link3">LINK3</a>
+                            <a className="nav-link" href="/#porquenosotros">POR QUE NOSOTROS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#link4">LINK4</a>
+                            <a className="nav-link" href="/#precios">PRECIOS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#link5">LINK5</a>
+                            <a className="nav-link" href="/#contacto">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
