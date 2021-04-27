@@ -15,10 +15,12 @@ body {
 
 h1, th {
   font-family: AuroBlack;
+  color: rgb(45, 51, 77);
 }
 
 h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroRegular;
+  color: rgb(45, 51, 77);
 }
 
 .color-verde{
@@ -27,6 +29,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .color-azul {
   background-color: rgb(45, 51, 77);
+}
+
+.margen {
+  height: 60vh;
 }
 
 /* NAVBAR */
@@ -64,7 +70,11 @@ nav .nav-link:hover {
 .initainer {
   background-color: white;
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
+}
+
+.initainer .contenido {
+  margin: auto;
 }
 
 /* QUIENES SOMOS */
