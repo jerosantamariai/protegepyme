@@ -1,5 +1,6 @@
 import React from 'react';
 import MarginLeft from '../../img/smalleft.svg';
+import LogoPP from '../../img/logoPP.png';
 
 const Inicio = props => {
     return (
@@ -11,7 +12,7 @@ const Inicio = props => {
                 <div className="col-11 my-auto">
                     <div className="contenido text-center">
                         <h1>ESTUDIO JURIDICO 100% ONLINE</h1>
-
+                        <img src={LogoPP} alt="Logo" className="logocircular" />
                         <h1>COBRANZA JUDICIAL</h1>
                         <h2>de Facturas, cheques, pagarés y otros documentos.</h2>
                         <h3>PROTEGEMOS TU PYME Y TE AYUDAMOS EN LOS PROCSOS DE COBRANZAS</h3>
