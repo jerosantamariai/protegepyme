@@ -113,7 +113,8 @@ nav .nav-link:hover {
 .qstainer .col-1 {
   background-image: url("../src/img/bigleft.svg");
   background-repeat: no-repeat;
-  background-size: 1000px 100px;
+  /* margin: 0px; */
+  /* background-size: 1000px 100px; */
 }
 
 /* COMO TRABAJAMOS */

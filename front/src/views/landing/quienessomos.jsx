@@ -1,5 +1,5 @@
 import React from 'react';
-// import RightArrow from '../../img/bigleft.svg';
+import RightArrow from '../../img/bigleft.svg';
 
 const QuienesSomos = props => {
     return (
@@ -14,7 +14,7 @@ const QuienesSomos = props => {
                         <i className="fas fa-arrow-down fa-8x"></i>
                 </div>
                 <div className="col-1">
-                    {/* <img src={RightArrow} alt="borde" className="margen2" /> */}
+                    <img src={RightArrow} alt="borde" className="margen2" />
                 </div>
             </div>
         </div>
