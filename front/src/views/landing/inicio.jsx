@@ -15,7 +15,7 @@ const Inicio = props => {
                         <img src={LogoPP} alt="Logo" className="logocircular" />
                         <h1>COBRANZA JUDICIAL</h1>
                         <h2>de Facturas, cheques, pagarés y otros documentos.</h2>
-                        <h3>PROTEGEMOS TU PYME Y TE AYUDAMOS EN LOS PROCSOS DE COBRANZAS</h3>
+                        <h3>PROTEGEMOS TU PYME Y TE AYUDAMOS EN LOS PROCESOS DE COBRANZAS</h3>
                         <h3>SI NO RECUPERAS, NO PAGAS</h3>
                     </div>
                 </div>
