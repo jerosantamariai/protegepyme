@@ -32,7 +32,7 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 }
 
 .margen {
-  height: 80vh;
+  height: 100vh;
 }
 
 /* NAVBAR */
@@ -70,7 +70,7 @@ nav .nav-link:hover {
 .initainer {
   background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .initainer .contenido {
@@ -78,15 +78,42 @@ nav .nav-link:hover {
 }
 
 .initainer .logocircular {
-  width: 10vw;
+  width: 30%;
 }
 
 /* QUIENES SOMOS */
 
 .qstainer {
-  background-color: teal;
+  background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
+}
+
+.qstainer hr {
+  border: 10px solid rgb(0, 237, 179);
+  border-radius: 15px;
+  width: 30vw;
+  margin: 0 auto 5%;
+}
+
+.qstainer .contenido {
+  margin: auto;
+}
+
+.qstainer .fa-arrow-down {
+  color: rgb(0, 237, 179);
+  size: 70vw;
+}
+
+/* .qstainer .margen2 {
+  height: 100%;
+  width: 100%;
+} */
+
+.qstainer .col-1 {
+  background-image: url("../src/img/bigleft.svg");
+  background-repeat: no-repeat;
+  background-size: 1000px 100px;
 }
 
 /* COMO TRABAJAMOS */
