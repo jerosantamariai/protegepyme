@@ -170,3 +170,13 @@ nav .nav-link:hover {
   width: 100vw;
   /* height: 80vh; */
 }
+
+/* FOOTER */
+
+footer {
+  background-color: white;
+}
+
+footer .margen {
+  height: 300px;
+}
