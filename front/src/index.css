@@ -163,6 +163,16 @@ nav .nav-link:hover {
   color: rgb(0, 237, 179);
 }
 
+table, th, td {
+  border: 3px solid rgb(0, 237, 179);
+  text-align: center;
+  padding: 20px;
+}
+
+.preciostainer .obs {
+  list-style-type: none;
+}
+
 /* CONTACTO */
 
 .contactainer {
