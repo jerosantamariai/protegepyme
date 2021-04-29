@@ -146,19 +146,21 @@ nav .nav-link:hover {
 /* POR QUE NOSOTROS */
 
 .xqtainer {
-  background-color: coral;
+  background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
 }
-
-
 
 /* PRECIOS */
 
 .preciostainer {
-  background-color: royalblue;
+  background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
+}
+
+.preciostainer .fa-dollar-sign {
+  color: rgb(0, 237, 179);
 }
 
 /* CONTACTO */
