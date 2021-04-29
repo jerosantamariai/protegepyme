@@ -6,7 +6,7 @@ const Contacto = props => {
     return(
         <div className="contactainer" id="contacto">
             <div className="row no-gutters">
-                <div className="col-11 text-center">
+                <div className="col-11 text-center my-auto">
                     <h1>CONTACTO</h1>
                     <img src={Formulario} alt="formulario"/>
                     <p>falta linea verde</p>
