@@ -166,7 +166,7 @@ nav .nav-link:hover {
 /* CONTACTO */
 
 .contactainer {
-  background-color: plum;
+  background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
 }
