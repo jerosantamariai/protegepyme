@@ -1,6 +1,6 @@
 body {
   background-color: rgb(45, 51, 77) !important;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 @font-face{
@@ -175,6 +175,7 @@ nav .nav-link:hover {
 
 footer {
   background-color: white;
+  width: 100vw;
 }
 
 footer .margen {

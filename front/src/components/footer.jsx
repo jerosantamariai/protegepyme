@@ -10,8 +10,8 @@ const Footer = props => {
                 </div>
                 <div className="col-11 text-center my-auto">
                     <h1>O CONTACTANOS AL</h1>
-                    <h3>+56912345678</h3>
-                    <h3>ABOGADOS@PROTEGEPYME.COM</h3>
+                    <h4>+56912345678</h4>
+                    <h4>ABOGADOS@PROTEGEPYME.COM</h4>
                 </div>
             </div>
         </footer>
