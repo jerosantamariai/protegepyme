@@ -120,9 +120,27 @@ nav .nav-link:hover {
 /* COMO TRABAJAMOS */
 
 .comostainer {
-  background-color: blueviolet;
+  background-color: white;
   width: 100vw;
-  height: 80vh;
+  /* height: 80vh; */
+}
+
+.comostainer .logoCC {
+  width: 70%;
+  height: auto;
+}
+
+.comostainer .fa-plus {
+  color: rgb(0, 237, 179);
+  size: 80%;
+}
+
+.comostainer span {
+  display: block;
+}
+
+.comostainer .logoPP {
+  width: 50%;
 }
 
 /* POR QUE NOSOTROS */
@@ -132,6 +150,8 @@ nav .nav-link:hover {
   width: 100vw;
   height: 80vh;
 }
+
+
 
 /* PRECIOS */
 
