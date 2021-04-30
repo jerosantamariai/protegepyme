@@ -1,9 +1,10 @@
 import React from 'react';
 // import LeftArrow from '../../img/bigright.svg';
-import LogoCC from '../../img/logoccazul.png';
-import LogoPP from '../../img/pplogo.png';
+import IsotipoCO from '../../img/isotipoCO.svg';
+// import LogoPP from '../../img/pplogo.png';
 import CurlyBracket from '../../img/curlybracket.svg';
 import Ondulado from '../../img/ondulado.svg';
+import LogoPP from '../../img/logoPP.png';
 
 const ComoTrabajamos = props => {
     return (
@@ -14,9 +15,9 @@ const ComoTrabajamos = props => {
                 </div> */}
                 <div className="col-12 text-center my-auto">
                     <h1>¿Cómo Trabajamos?</h1>
-                    <img src={LogoCC} alt="logocobranzaonline" className="logoCC my-4" />
+                    <img src={IsotipoCO} alt="logocobranzaonline" className="logoCC my-4" />
                     <span><i className="fas fa-plus fa-8x"></i></span>
-                    <img src={LogoPP} alt="logoprotegepyme" className="logoPP my-4" />
+                    <img src={LogoPP} alt="logoprotegepyme" className="logoPP my-0" />
                     <span><img src={CurlyBracket} alt="bracket" className="bracket py-3" /></span>
                     <h4>SOMOS PARTNERS ESTRATEGICOS</h4>
                     <h4>NOSOTROS CERRAMOS EL CICLO Y NOS</h4>
