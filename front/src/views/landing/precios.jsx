@@ -1,6 +1,7 @@
 import React from 'react';
 // import Tabla from '../../img/tabla.png';
 import FlechaIzquierda from '../../img/smalleft.svg';
+import Separador from '../../img/separador.svg';
 
 const Precios = props => {
     return (
@@ -46,8 +47,8 @@ const Precios = props => {
                         <li>Juicios ordinarios.</li>
                         <li>Desde 12 UF.</li>
                     </ul>
+                    <img src={Separador} alt="separador" className="separador py-5" />
                 </div>
-                <p>falta la linea verde</p>
             </div>
         </div>
     )
