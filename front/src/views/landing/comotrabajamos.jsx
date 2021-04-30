@@ -3,6 +3,7 @@ import LeftArrow from '../../img/bigright.svg';
 import LogoCC from '../../img/logoccazul.png';
 import LogoPP from '../../img/pplogo.png';
 import CurlyBracket from '../../img/curlybracket.svg';
+import Ondulado from '../../img/ondulado.svg';
 
 const ComoTrabajamos = props => {
     return (
@@ -22,7 +23,7 @@ const ComoTrabajamos = props => {
                     <h4>PREOCUPAMOS DE LOS ÚLTIMOS DETALLES</h4>
                     <h1>ASI TODO FLUYE DE</h1> 
                     <h1>MANERA ORGÁNICA</h1>
-                    <p>falta icono ondulado</p>
+                    <img src={Ondulado} alt="ondulado" className="ondulado py-5" />
                 </div>
             </div>
         </div>
