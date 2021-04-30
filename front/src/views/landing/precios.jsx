@@ -1,16 +1,16 @@
 import React from 'react';
 // import Tabla from '../../img/tabla.png';
-import FlechaIzquierda from '../../img/smalleft.svg';
+// import FlechaIzquierda from '../../img/smalleft.svg';
 import Separador from '../../img/separador.svg';
 
 const Precios = props => {
     return (
         <div className="preciostainer" id="precios">
             <div className="row no-gutters">
-                <div className="col-1">
+                {/* <div className="col-1">
                     <img src={FlechaIzquierda} alt="flechaborde" />
-                </div>
-                <div className="col-11 text-center">
+                </div> */}
+                <div className="col-12 text-center">
                     <h1 className="my-3">TRANSPARENCIA</h1>
                     <h4 className="my-3">LO QUE NOS CARACTERIZA</h4>
                     <i class="fas fa-dollar-sign fa-8x my-3"></i>

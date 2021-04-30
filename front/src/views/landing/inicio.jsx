@@ -1,15 +1,15 @@
 import React from 'react';
-import MarginLeft from '../../img/smalleft.svg';
+// import MarginLeft from '../../img/smalleft.svg';
 import LogoPP from '../../img/logoPP.png';
 
 const Inicio = props => {
     return (
         <div className="initainer">
             <div className="row no-gutters">
-                <div className="col-1">
+                {/* <div className="col-1">
                     <img src={MarginLeft} alt="MargenFlecha" className="margen" />
-                </div>
-                <div className="col-11 my-auto">
+                </div> */}
+                <div className="col-12 my-auto">
                     <div className="contenido text-center">
                         <h1>ESTUDIO JURIDICO 100% ONLINE</h1>
                         <img src={LogoPP} alt="Logo" className="logocircular" />
