@@ -9,7 +9,7 @@ const Inicio = props => {
                 {/* <div className="col-1">
                     <img src={MarginLeft} alt="MargenFlecha" className="margen" />
                 </div> */}
-                <div className="col-12 my-auto">
+                <div className="col-12 my-auto py-4">
                     <div className="contenido text-center">
                         <h1>ESTUDIO JURIDICO 100% ONLINE</h1>
                         <img src={LogoPP} alt="Logo" className="logocircular" />
