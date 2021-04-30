@@ -1,6 +1,7 @@
 import React from 'react';
 // import Formulario from '../../img/formulario.png';
 import FlechaDerecha from '../../img/bigleft.svg';
+import Separador from '../../img/separador.svg';
 
 const Contacto = props => {
     return (
@@ -26,7 +27,7 @@ const Contacto = props => {
                         </div>
                         <div className="btn">ENVIAR</div>
                     </form>
-                    <p>falta linea verde</p>
+                    <img src={Separador} alt="separador" className="separador py-5" />
                 </div>
                 <div className="col-1">
                     <img src={FlechaDerecha} alt="flechamargen" />
