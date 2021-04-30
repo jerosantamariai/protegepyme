@@ -2,6 +2,7 @@ import React from 'react';
 import LeftArrow from '../../img/bigright.svg';
 import LogoCC from '../../img/logoccazul.png';
 import LogoPP from '../../img/pplogo.png';
+import CurlyBracket from '../../img/curlybracket.svg';
 
 const ComoTrabajamos = props => {
     return (
@@ -15,7 +16,7 @@ const ComoTrabajamos = props => {
                     <img src={LogoCC} alt="logocobranzaonline" className="logoCC my-4" />
                     <span><i className="fas fa-plus fa-8x"></i></span>
                     <img src={LogoPP} alt="logoprotegepyme" className="logoPP my-4" />
-                    <p>falta curlybracket img y cambiar los logos</p>
+                    <img src={CurlyBracket} alt="bracket" className="bracket py-3" />
                     <h4>SOMOS PARTNERS ESTRATEGICOS</h4>
                     <h4>NOSOTROS CERRAMOS EL CICLO Y NOS</h4>
                     <h4>PREOCUPAMOS DE LOS ÚLTIMOS DETALLES</h4>
