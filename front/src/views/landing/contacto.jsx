@@ -1,13 +1,13 @@
 import React from 'react';
 // import Formulario from '../../img/formulario.png';
-import FlechaDerecha from '../../img/bigleft.svg';
+// import FlechaDerecha from '../../img/bigleft.svg';
 import Separador from '../../img/separador.svg';
 
 const Contacto = props => {
     return (
         <div className="contactainer" id="contacto">
             <div className="row no-gutters">
-                <div className="col-11 text-center my-auto">
+                <div className="col-12 text-center my-auto">
                     <h1>¡HABLEMOS!</h1>
                     <h3>QUEREMOS AYUDARTE</h3>
                     <i className="far fa-comment-dots fa-8x"></i>
@@ -29,9 +29,9 @@ const Contacto = props => {
                     </form>
                     <img src={Separador} alt="separador" className="separador py-5" />
                 </div>
-                <div className="col-1">
+                {/* <div className="col-1">
                     <img src={FlechaDerecha} alt="flechamargen" />
-                </div>
+                </div> */}
             </div>
         </div>
     )
