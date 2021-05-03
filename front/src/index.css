@@ -17,11 +17,13 @@ body {
 h1, th {
   font-family: AuroBlack;
   color: rgb(45, 51, 77);
+  font-size: 1.5rem !important;
 }
 
 h2, h3, h4, h5, h6, p, nav, td, li {
   font-family: AuroRegular;
   color: rgb(45, 51, 77);
+  font-size: 1.25rem !important;
 }
 
 .color-verde{
@@ -34,6 +36,14 @@ h2, h3, h4, h5, h6, p, nav, td, li {
 
 .margen {
   height: 100vh;
+}
+
+.separador {
+  width: 50vw;
+}
+
+.ondulado {
+  width: 50vw;
 }
 
 /* NAVBAR */
@@ -66,13 +76,7 @@ nav .nav-link:hover {
   margin-right: 30px;
 }
 
-.separador {
-  width: 50vw;
-}
 
-.ondulado {
-  width: 50vw;
-}
 
 /* INICIO */
 
@@ -135,7 +139,7 @@ nav .nav-link:hover {
 }
 
 .comostainer .logoCC {
-  width: 40%;
+  width: 30%;
   height: auto;
 }
 
@@ -149,7 +153,7 @@ nav .nav-link:hover {
 }
 
 .comostainer .logoPP {
-  width: 50%;
+  width: 40%;
 }
 
 .comostainer .bracket {
@@ -179,12 +183,21 @@ nav .nav-link:hover {
 table, th, td {
   border: 3px solid rgb(0, 237, 179);
   text-align: center;
-  padding: 20px;
+  padding: 5px;
+  /* width: 50vw !important; */
 }
 
 .preciostainer .obs {
   list-style-type: none;
 }
+
+.preciostainer .tablecontent {
+  width: 50vw;
+}
+
+/* .preciostainer table {
+  width: 100px !important;
+} */
 
 /* CONTACTO */
 
