@@ -189,6 +189,10 @@ nav .nav-link:hover {
   transform: translateY(-50%);
 }
 
+.xqtainer .vermas {
+  width: 30%;
+}
+
 /* PRECIOS */
 
 .preciostainer {
