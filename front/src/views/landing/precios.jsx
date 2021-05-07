@@ -2,6 +2,8 @@ import React from 'react';
 // import Tabla from '../../img/tabla.png';
 // import FlechaIzquierda from '../../img/smalleft.svg';
 import Separador from '../../img/separador.svg';
+import Tabla from '../../img/tablaprecios.png';
+import Dollar from '../../img/dollar.svg';
 
 const Precios = props => {
     return (
@@ -13,10 +15,12 @@ const Precios = props => {
                 <div className="col-12 text-center">
                     <h1 className="my-3">TRANSPARENCIA</h1>
                     <h4 className="my-3">LO QUE NOS CARACTERIZA</h4>
-                    <i class="fas fa-dollar-sign fa-8x my-3"></i>
+                    {/* <i class="fas fa-dollar-sign fa-4x my-3"></i> */}
+                    <img src={Dollar} alt="dolar" className="dollar py-2" />
                     <h1 className="my-3">NUESTROS PRECIOS</h1>
-                    <div className="tablecontent">
-                        <table className="my-4">
+                    <div className="tablecontent mx-auto my-3">
+                        <img src={Tabla} alt="tabla" className="tabla" />
+                        {/* <table className="my-4">
                             <tr>
                                 <th>TRAMO DEUDA</th>
                                 <th>COMISIÓN DE RECUPERO</th>
@@ -42,15 +46,16 @@ const Precios = props => {
                                 <td>10%</td>
                                 <td>$ 439.000</td>
                             </tr>
-                        </table>
+                        </table> */}
                     </div>
                     <ul className="obs text-center">
-                        <li>&#42;A todo evento, se imputa y deduce de la comisión)</li>
+                        <li>&#42;A todo evento, se imputa</li>
+                        <li>y deduce de la comisión.</li>
                         <li>No incluye costas gastos del juicio.</li>
                         <li>Juicios ordinarios.</li>
                         <li>Desde 12 UF.</li>
                     </ul>
-                    <img src={Separador} alt="separador" className="separador py-5" />
+                    <img src={Separador} alt="separador" className="separador py-4" />
                 </div>
             </div>
         </div>

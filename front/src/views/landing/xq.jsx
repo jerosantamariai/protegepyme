@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Collage from '../../components/cuadros.jsx';
 import parse from 'html-react-parser';
 import VerMas from '../../img/vermas.svg';
+import TrabajarJuntos from '../../img/trabajarjuntos.svg';
 
 const XQ = props => {
     const [multiplicador, setMultiplicador] = useState(1)
@@ -25,7 +26,8 @@ const XQ = props => {
         <div className="xqtainer" id="porquenosotros">
             <div className="row no-gutters">
                 <div className="col-12 text-center">
-                    <h1>¿Porqué trabajar juntos?</h1>
+                    <h1>¿POR QUE TRABAJAR JUNTOS?</h1>
+                    <img src={TrabajarJuntos} alt="trabajarjuntos" className="trabajarjuntos py-3" />
                     <h5>NUESTRO TRABAJO ES GARANTIA DE</h5>
                     <h5>COMPROMISO, DEDICACIÓN Y EXPERIENCIA</h5>
                     <div className="row no-gutters">
