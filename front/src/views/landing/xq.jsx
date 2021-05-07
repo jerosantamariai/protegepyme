@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 // import Cuadros from '../../img/cuadros.png';
 import Collage from '../../components/cuadros.jsx';
 import parse from 'html-react-parser';
+import VerMas from '../../img/vermas.svg';
+import TrabajarJuntos from '../../img/trabajarjuntos.svg';
 
 const XQ = props => {
     const [multiplicador, setMultiplicador] = useState(1)
@@ -24,23 +26,25 @@ const XQ = props => {
         <div className="xqtainer" id="porquenosotros">
             <div className="row no-gutters">
                 <div className="col-12 text-center">
-                    <h1>¿Porqué trabajar juntos?</h1>
+                    <h1>¿POR QUE TRABAJAR JUNTOS?</h1>
+                    <img src={TrabajarJuntos} alt="trabajarjuntos" className="trabajarjuntos py-3" />
                     <h5>NUESTRO TRABAJO ES GARANTIA DE</h5>
                     <h5>COMPROMISO, DEDICACIÓN Y EXPERIENCIA</h5>
-                    <div className="row text-center no-gutters">
-                        <div className="col-12 no-gutters">
+                    <div className="row no-gutters">
+                        <div className="col-6 mx-auto">
                             {
                                 mapcollage()
                             }
                         </div>
                     </div>
 
-                    <div className="row d-flex justify-content-center no-gutters">
+                    <div className="row no-gutters">
                         {
                             Collage.length > 2 * multiplicador ? (
-                                <div className="row no-gutters no-gutters">
-                                    <div className="col-6 text-center no-gutters">
-                                        <div className="btn btn-info mb-4" onClick={() => setMultiplicador(multiplicador + 1)}>Ver más...</div>
+                                <div className="row no-gutters">
+                                    <div className="btn mb-4">
+                                        <h6>VER MAS</h6>
+                                        <img src={VerMas} alt="vermas" className="vermas" onClick={() => setMultiplicador(multiplicador + 1)}/>
                                     </div>
                                 </div>
                             ) :
