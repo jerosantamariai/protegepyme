@@ -50,10 +50,10 @@ const Precios = props => {
                     </div>
                     <ul className="obs text-center">
                         <li>&#42;A todo evento, se imputa</li>
-                        <li>y deduce de la comisión.</li>
-                        <li>No incluye costas gastos del juicio.</li>
-                        <li>Juicios ordinarios.</li>
-                        <li>Desde 12 UF.</li>
+                        <li>&#42;y deduce de la comisión.</li>
+                        <li>&#42;No incluye costas gastos del juicio.</li>
+                        <li>&#42;Juicios ordinarios.</li>
+                        <li>&#42;Desde 12 UF.</li>
                     </ul>
                     <img src={Separador} alt="separador" className="separador py-4" />
                 </div>
