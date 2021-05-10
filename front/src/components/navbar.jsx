@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PPLogo from '../img/pplogo.png';
 
 const Navbar = props => {
@@ -27,6 +28,14 @@ const Navbar = props => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <ul className="navbar-nav mb-2 mb-lg-0 mx-auto text-center">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/version2">Versión 2</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/version3">Versión 3</Link>
                         </li>
                     </ul>
                 </div>
