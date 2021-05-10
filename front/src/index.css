@@ -46,6 +46,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   width: 40vw;
 }
 
+.fake {
+  width: 100vw;
+}
+
 /* NAVBAR */
 
 nav {
@@ -264,7 +268,6 @@ table, th, td {
   font-family: AuroBlack;
   color: rgb(45, 51, 77);
   font-size: larger;
-  
 }
 
 
