@@ -4,8 +4,9 @@ import IsotipoCO from '../../img/isotipoCO.svg';
 // import LogoPP from '../../img/pplogo.png';
 import CurlyBracket from '../../img/curlybracket.svg';
 import Ondulado from '../../img/ondulado.svg';
-import LogoPP from '../../img/logoPP.png';
-import Mas from '../../img/mas.svg';
+// import LogoPP from '../../img/logoPP.png';
+// import Mas from '../../img/mas.svg';
+import CoPlusPP from '../../img/copluspp.svg';
 
 const ComoTrabajamos = props => {
     return (
@@ -17,12 +18,13 @@ const ComoTrabajamos = props => {
                 <div className="col-12 text-center my-auto">
                     <h1>¿CÓMO TRABAJAMOS?</h1>
                     <div className="d-flex justify-content-center my-3">
-                        <img src={IsotipoCO} alt="logocobranzaonline" className="logoCC my-4" />
+                        {/* <img src={IsotipoCO} alt="logocobranzaonline" className="logoCC my-4" />
                         <span>
                             {/* <i className="fas fa-plus fa-3x"></i> */}
-                            <img src={Mas} alt="mas" className="mas py-auto" />
+                            {/* <img src={Mas} alt="mas" className="mas py-auto" />
                         </span>
-                        <img src={LogoPP} alt="logoprotegepyme" className="logoPP my-0" />
+                        <img src={LogoPP} alt="logoprotegepyme" className="logoPP my-0" /> */} 
+                        <img src={CoPlusPP} alt="copluspp" className="copluspp" />
                     </div>
                     <span><img src={CurlyBracket} alt="bracket" className="bracket my-4" /></span>
                     <h4>SOMOS PARTNERS ESTRATEGICOS</h4>
