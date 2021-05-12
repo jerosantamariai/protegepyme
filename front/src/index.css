@@ -299,3 +299,14 @@ footer {
 footer .margen {
   height: 300px;
 }
+
+footer .realfooter {
+  background-color: rgb(45, 51, 77);
+  color:rgb(0, 237, 179) !important;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+footer .realfooter p {
+  color:rgb(0, 237, 179) !important;
+}
