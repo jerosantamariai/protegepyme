@@ -194,6 +194,10 @@ nav .nav-link:hover {
   /* padding: auto; */
 }
 
+.xqtainer .cuadros {
+  width: 50vw;
+}
+
 .xqtainer b, strong {
   font-weight: bolder;
   font-family: 'AuroBlack';
