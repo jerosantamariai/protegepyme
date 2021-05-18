@@ -34,6 +34,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
   background-color: rgb(45, 51, 77);
 }
 
+
+
+@media only screen and (max-width: 768px) {
+
 .margen {
   height: 100vh;
 }
@@ -317,4 +321,6 @@ footer .realfooter {
 
 footer .realfooter p {
   color:rgb(0, 237, 179) !important;
+}
+
 }
