@@ -1,5 +1,5 @@
 import React from 'react';
-import Fake1 from '../../img/fake1.png';
+import Fake1 from '../../img/ppversionoficial.png';
 
 const FakeUno = props => {
     return(
