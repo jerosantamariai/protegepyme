@@ -14,6 +14,10 @@ body {
   src: url('../src/fonts/auroregular.otf');
 }
 
+.desktop {
+  width: 100vw;
+}
+
 h1, th {
   font-family: AuroBlack;
   color: rgb(45, 51, 77);
